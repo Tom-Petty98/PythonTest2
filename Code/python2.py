@@ -255,9 +255,9 @@ def nine(string1, string2):
 
 def ten(X,Y):
 	a = []
-	for i in range(X):
+	for i in range(Y):
 		b = []
-		for j in range(Y):
+		for j in range(X):
 			b.append(i*j)
 		a.append(b)		
 	return a
